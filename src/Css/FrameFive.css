@@ -1,0 +1,153 @@
+.frame-five-container{
+    position: relative;
+     max-width: 1200px;
+     margin-bottom: 200px;
+}
+
+.box-solid-ban{
+    width: 1060px;
+height: 262px;
+border-radius: 30px;
+box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(96, 68, 65),rgb(58, 37, 35) 100%);
+}
+
+.box-solid-text{
+    padding-top: 60px;
+    padding-left: 38px;
+}
+
+.box-solid-text h5{
+    color: rgb(255, 255, 255);
+font-family: Arial;
+font-size: 50px;
+font-weight: 900;
+line-height: 110%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.box-solid-text span{
+    margin-left: 140px;
+}
+
+.box-solid-text button{
+    margin-top: 30px;
+    /* Frame 27360 */
+position: relative;
+width: 340px;
+height: 68px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+padding: 19px 66px 19px 66px;
+border-radius: 100px;
+
+background: rgb(255, 255, 255);
+
+color: rgb(0, 0, 0);
+font-family: Arial;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+#vectorR{
+    /* Vector */
+position: absolute;
+width: 37.23px;
+height: 18px;
+left: 275px;
+}
+
+#mesho4ek{
+    position: absolute;
+    top: -40px;
+    left: 460px;
+}
+
+@media  (max-width: 768px) {
+    .frame-five-container{
+        position: relative;
+         max-width: 768px;
+         margin-bottom: 120px;
+    }
+
+    .box-solid-ban{
+        width: 320px;
+height: 426px;
+    border-radius: 30px;
+
+box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(96, 68, 65),rgb(58, 37, 35) 100%);
+    }
+
+    
+    .box-solid-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Центрирует содержимое по горизонтали */
+        justify-content: center; /* Центрирует содержимое по вертикали */
+        text-align: center; /* Центрирует текст внутри дочерних элементов */
+        padding-top:230px ;
+        padding-left: 20px;
+        padding-right: 20px;
+        /* Убедитесь, что у .box-solid-text есть заданные ширина и высота, если это необходимо */
+    }
+    
+    .box-solid-text h5 {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: Arial;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 110%;
+        margin: 0; /* Убираем стандартные отступы */
+        /* Не нужно указывать text-align: center; здесь, если он уже указан в .box-solid-text */
+    }
+    .box-solid-text span{
+        margin-left: 0;
+    }
+    
+
+    .box-solid-text button {
+        margin-top: 30px;
+        width: 260px; /* Явно задаем ширину, чтобы управлять размером кнопки */
+        height: 50px; /* Явно задаем высоту для управления размером кнопки */
+        padding: 19px 66px; /* Отступы внутри кнопки */
+        border-radius: 100px;
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        font-family: Arial;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22px;
+        border: none; /* Убираем стандартную рамку кнопки */
+        cursor: pointer; /* Добавляем указатель, чтобы показать, что кнопка кликабельна */
+        /* text-align: left; не требуется, так как содержимое уже выровнено с помощью flex в .box-solid-text */
+    }
+    
+    
+    
+    #vectorR{
+        /* Vector */
+    position: absolute;
+    width: 22.91px;
+    height: 13.54px;
+    left: 190px;
+    }
+
+    #mesho4ek{
+        top: 20px;
+        left: 10px;
+        width: 298px;
+height: 179px;
+position: absolute;
+
+    }
+}

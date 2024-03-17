@@ -1,0 +1,239 @@
+.frame-four-container{
+    
+    position: relative;
+     max-width: 1200px;
+     margin-bottom: 200px;
+}
+
+#button-poyavitsya{
+    display: none;
+}
+
+.text-first-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-first-content h4{
+    background: linear-gradient(0.00deg, rgb(0, 0, 0),rgba(0, 0, 0, 0.85));
+-webkit-background-clip:
+text;
+-webkit-text-fill-color:
+transparent;
+background-clip:
+text;
+text-fill-color:
+transparent;
+font-family: Arial;
+font-size: 70px;
+font-weight: 900;
+line-height: 110%;
+letter-spacing: 0%;
+
+}
+
+.text-first-content p{
+    margin-top: 80px;
+    color: rgb(0, 0, 0);
+font-family: Arial;
+font-size: 22px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.two-containers-photo{
+    margin-top: 80px;
+    display: flex;
+    gap: 20px;
+}
+
+.boxa-har{
+    /* Rectangle 8353 */
+
+width: 520px;
+height: 228px;
+border-radius: 30px;
+
+box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.05);
+background: rgb(255, 255, 255);
+}
+
+.one-container-content{
+    display: flex;
+}
+
+.one-container-content img{
+    margin-top: 29px;
+    margin-left: 24px;
+    width: 222px;
+    height: 170px;
+}
+
+.one-container-text{
+    margin-left: 24px;
+    margin-top: 38px;
+}
+
+.one-container-text h5{
+    background: linear-gradient(0.00deg, rgb(0, 0, 0),rgba(0, 0, 0, 0.85));
+-webkit-background-clip:
+text;
+-webkit-text-fill-color:
+transparent;
+background-clip:
+text;
+text-fill-color:
+transparent;
+font-family: Arial;
+font-size: 40px;
+font-weight: 900;
+line-height: 110%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.one-container-text p {
+    margin-top: 20px;
+    color: rgb(1, 1, 1);
+font-family: Arial;
+font-size: 22px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+#zernyshko{
+    position: absolute;
+    top: -330px;
+    left: -40%;
+    transform: translateX(-200%);
+    max-width: 100%; /* Установите максимальную ширину изображения */
+    width: 30vw; /* Установите ширину изображения как 50% от ширины вьюпорта */
+    height: auto; /* Сохраните пропорции изображения */
+    bottom: 0; /* Опционально, если вы хотите выровнять изображение по нижней части экрана */
+    z-index: -1; 
+}
+
+#mutnoe{
+    width: 396.82px;
+height: 486.97px;
+  position: absolute;
+  top: -50px;
+  left: 95%; /* Центрирует кружку относительно всей ширины экрана */
+  transform: translateX(168%); /* Сдвигает кружку влево на всю её ширину */
+  max-width: 1000px; /* Максимальная ширина изображения */
+  width: 30vw; /* Ширина изображения равна 50% от ширины экрана */
+  height: auto; /* Сохранение пропорций изображения */
+  bottom: 0; /* Опционально, если вы хотите выровнять изображение по нижней части экрана */
+  z-index: -1;
+}
+@media  (max-width: 768px) {
+    #zernyshko{
+        display: none;
+    }
+
+    #mutnoe{
+        display: none;
+    }
+    
+    .frame-four-container{
+        position: relative;
+         max-width: 768px;
+         margin-bottom: 120px;
+    }
+
+    .text-first-content h4{
+        bbackground: linear-gradient(0.00deg, rgb(0, 0, 0),rgba(0, 0, 0, 0.85));
+        -webkit-background-clip:
+        text;
+        -webkit-text-fill-color:
+        transparent;
+        background-clip:
+        text;
+        text-fill-color:
+        transparent;
+        font-family: Arial;
+        font-size: 42px;
+        font-weight: 900;
+        line-height: 110%;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .text-first-content p{
+        margin-top: 30px;
+        color: rgba(0, 0, 0, 0.6);
+font-family: Arial;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.69px;
+letter-spacing: 0%;
+text-align: center;
+    }
+    .two-containers-photo{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center; /* Центрирование по горизонтали */
+    justify-content: center; 
+    }
+    .boxa-har {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* центрирование по горизонтали */
+        justify-content: center; /* центрирование по вертикали */
+        width: 320px;
+        height: 453px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.05);
+        background: rgb(255, 255, 255);
+        text-align: center;
+      }
+      
+      .one-container-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Добавлено для центрирования содержимого */
+        justify-content: center; /* Добавлено для центрирования содержимого */
+      }
+      
+      .one-container-content img {
+        margin-top: 0px;
+        width: 222px;
+        height: 170px;
+      }
+      
+      .one-container-text {
+        margin-top: 20px; /* Адаптируйте в соответствии с вашими нуждами */
+      }
+      
+      .one-container-text h5 {
+        background: linear-gradient(0.00deg, rgb(0, 0, 0),rgba(0, 0, 0, 0.85));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        font-family: Arial;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 110%;
+        letter-spacing: 0%;
+        text-align: center;
+      }
+      
+      .one-container-text p {
+        color: rgb(1, 1, 1);
+        font-family: Arial;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: center;
+      }
+      
+}

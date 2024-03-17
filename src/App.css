@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+/* Сброс и базовые стили */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(246, 245, 246);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+/* Основной контейнер приложения */
+.app-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start; /* Содержимое начинается от верха страницы */
+  align-items: center; /* Центрирование содержимого по горизонтали */
 }
 
-.App-link {
-  color: #61dafb;
+/* Дополнительные глобальные стили можно добавить здесь */
+/* App.css */
+html {
+  scroll-behavior: smooth;
+}
+body, html {
+  overflow-x: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+

@@ -1,0 +1,156 @@
+.frame-seven-container {
+    position: relative;
+    min-height: 100vh; /* Минимальная высота контейнера */
+    width: 100%; /* Убедитесь, что контейнер растягивается на всю ширину */
+    height: auto; /* Высота по содержимому, можно задать конкретную высоту если нужно */
+    background-color: rgb(96, 68, 65);;
+    background-size: cover; /* Покрытие всего контейнера изображением */
+    background-position: center; /* Центрирование изображения */
+    background-repeat: no-repeat; /* Не повторяем изображение */
+  }
+  
+  #background-volna{
+    z-index: -1;
+    position: absolute;
+    width: 100vw; /* Задает ширину изображения равной 100% от ширины видимой области экрана */
+    top: -90px;
+    left: 0; /* Устанавливаем изображение строго к левому краю, чтобы избежать возможных отступов */
+  }
+.content-frame-seven h5{
+    margin-top: 200px;
+    color: rgb(255, 255, 255);
+font-family: Arial;
+font-size: 70px;
+
+text-align: center;
+}
+
+.content-frame-seven {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Добавьте это для горизонтального центрирования */
+    text-align: center; /* Центрирует текст внутри контейнера */
+    
+}
+
+.content-seven-info{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row; /* Добавьте это, если хотите стекать элементы вертикально */
+    align-items: center;
+    align-items: center; /* Центрирует содержимое блока по горизонтали */
+    gap: 314px;
+}
+
+
+.seven-info-first{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.seven-info-first p{
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 22px;
+    text-align: left; /* Центрируем текст в абзацах */
+    width: 100%; /* Полная ширина для корректного центрирования */
+}
+
+.ikonki-rovno{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.linki-footer{
+    margin-top: 95px;
+    display: flex;
+    gap: 31px;
+    justify-content: center;
+}
+
+.linki-footer a{
+    text-decoration: none;
+}
+
+.linki-footer p{
+    color: rgb(255, 255, 255);
+font-family: Arial;
+font-size: 22px;
+}
+
+#theLast{
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+font-family: Arial;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+@media (min-width: 769px){
+br.desktop-hidden{
+    display: none;
+}
+}
+
+@media (max-width: 768px){
+    .frame-seven-container {
+      
+        position: relative;
+        max-width: 100%;
+        height: auto;
+        min-height: 100vh;
+        background-color: rgb(96, 68, 65);;
+        background-size: cover; /* Покрытие всего контейнера изображением */
+        background-position: center; /* Центрирование изображения */
+        background-repeat: no-repeat; /* Не повторяем изображение */
+      }
+    .content-frame-seven h5{
+        margin-top: 120px;
+        color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 42px;
+    text-align: center;
+    }
+    .content-seven-info{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column; /* Добавьте это, если хотите стекать элементы вертикально */
+        align-items: center;
+        align-items: center; /* Центрирует содержимое блока по горизонтали */
+        
+    }
+    .seven-info-first p{
+        color: rgb(255, 255, 255);
+        font-family: Arial;
+        font-size: 22px;
+        text-align: center; /* Центрируем текст в абзацах */
+        
+    }
+    .ikonki-rovno{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .linki-footer{
+        margin-top: -100px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+    #pos-logo{
+        position: absolute;
+        top: 440px;
+    left: 50%;
+    transform: translateX(-50%); /* Центрируем изображение */
+    }
+}

@@ -1,0 +1,296 @@
+.frame-three-container {
+    position: relative;
+     max-width: 1200px;
+     margin-bottom: 200px;
+   }
+
+.text-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-content h3 {
+    background: linear-gradient(0.00deg, rgb(0, 0, 0),rgba(0, 0, 0, 0.85));
+    -webkit-background-clip:
+    text;
+    -webkit-text-fill-color:
+    transparent;
+    background-clip:
+    text;
+    text-fill-color:
+    transparent;
+    font-family: Arial;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 110%;
+    letter-spacing: 0%;
+    
+}
+
+.text-content p{
+    margin-top: 80px;
+    color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+#logotut {
+    vertical-align: middle; /* или 'bottom', чтобы подвинуть ещё ниже */
+  }
+  
+.text-content span{
+    margin-top: 34px;
+    color: rgb(0, 0, 0);
+font-family: Arial;
+font-size: 22px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.main-block-three{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+.content-text-block{
+    border-radius: 30px;
+
+background: rgb(255, 255, 255);
+width: 1060px;
+height: 304px;
+}
+
+.content-osn{
+    display: flex;
+    padding: 40px;
+}
+
+.content-osn img{
+    width: 241px;
+    height: 217px;
+}
+
+.content-osn-text {
+    margin-left: 105px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-osn-text h4{
+    background: linear-gradient(0.00deg, rgb(0, 0, 0),rgba(0, 0, 0, 0.85));
+-webkit-background-clip:
+text;
+-webkit-text-fill-color:
+transparent;
+background-clip:
+text;
+text-fill-color:
+transparent;
+font-family: Arial;
+font-size: 40px;
+font-weight: 900;
+line-height: 110%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.content-osn-text p{
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+font-family: Arial;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+#coffecontrol{
+    width: 396.82px;
+height: 486.97px;
+  position: absolute;
+  top: 505px;
+  left: 90%; /* Центрирует кружку относительно всей ширины экрана */
+  transform: translateX(168%); /* Сдвигает кружку влево на всю её ширину */
+  max-width: 1000px; /* Максимальная ширина изображения */
+  width: 30vw; /* Ширина изображения равна 50% от ширины экрана */
+  height: auto; /* Сохранение пропорций изображения */
+  bottom: 0; /* Опционально, если вы хотите выровнять изображение по нижней части экрана */
+  z-index: -1;
+}
+
+#mutnik3{
+    
+    position: absolute;
+    top: 15px;
+    left: -45%;
+    transform: translateX(-200%);
+    max-width: 100%; /* Установите максимальную ширину изображения */
+    width: 30vw; /* Установите ширину изображения как 50% от ширины вьюпорта */
+    height: auto; /* Сохраните пропорции изображения */
+    bottom: 0; /* Опционально, если вы хотите выровнять изображение по нижней части экрана */
+    z-index: -1; 
+}
+@media (min-width: 769px){
+    br.desktop-hidden{
+        display: none;
+    }
+    #mobile-logo{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .frame-three-container {
+        position: relative;
+         max-width: 768px;
+         margin-bottom: 120px;
+       }
+    #mutnik3{
+        display: none;
+    }
+    #logotut{
+        display: none;
+    }
+    .text-content{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .text-content h3 {
+        background: linear-gradient(0.00deg, rgb(0, 0, 0),rgba(0, 0, 0, 0.85));
+-webkit-background-clip:
+text;
+-webkit-text-fill-color:
+transparent;
+background-clip:
+text;
+text-fill-color:
+transparent;
+font-family: Arial;
+font-size: 42px;
+font-weight: 900;
+line-height: 110%;
+letter-spacing: 0%;
+text-align: center;
+        
+    }
+    .text-content p{
+        margin-top: 30px;
+        color: rgb(0, 0, 0);
+font-family: Arial;
+font-size: 20px;
+font-weight: 400;
+line-height: 19.69px;
+letter-spacing: 0%;
+text-align: center;
+    }
+    .text-content span{
+        color: rgba(0, 0, 0, 0.6);
+        font-family: Arial;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.69px;
+        letter-spacing: 0%;
+        text-align: center;
+        
+    }
+    br.mobile-hidden{
+        display: none;
+    }
+    span.mobile-hidden{
+        display: none;
+    }
+    .main-block-three{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    .content-text-block{
+        border-radius: 30px;
+    
+    background: rgb(255, 255, 255);
+    width: 320px;
+height: 565px;
+    }
+    .content-osn{
+        display: flex;
+        flex-direction: column;
+        padding-top:50px;
+        padding-left: 30px;
+        padding-right: 25px;
+        padding-bottom: 40px;
+    }
+    .content-osn img{
+        text-align: center;
+        margin-left: 25px;
+        width: 220px;
+        height: 160px;
+    }
+    .content-osn-text {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .content-osn-text h4{
+        margin-top: 30px;
+        background: linear-gradient(0.00deg, rgb(0, 0, 0),rgba(0, 0, 0, 0.85));
+-webkit-background-clip:
+text;
+-webkit-text-fill-color:
+transparent;
+background-clip:
+text;
+text-fill-color:
+transparent;
+font-family: Arial;
+font-size: 30px;
+font-weight: 900;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+    }
+    .content-osn-text p{
+        margin-top: 30px;
+        color: rgb(1, 1, 1);
+font-family: Arial;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+    }
+    #coffecontrol{
+        filter: blur(10px);
+        z-index: -1;
+        top: 200px;
+        left: 260px;
+        position: absolute;
+        width: 133.91px;
+        height: 164px;
+    }
+    #mobile-logo{
+        display: none;
+        position: absolute;
+        width: 71.88px;
+        height: 80px;
+        top: 170px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+        
+    }
+  }
+  

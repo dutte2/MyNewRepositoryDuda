@@ -1,0 +1,245 @@
+.frame-six-container{
+    position: relative;
+     max-width: 1200px;
+     margin-bottom: 227px
+}
+
+.six-contain h5{
+    background: linear-gradient(0.00deg, rgb(0, 0, 0),rgba(0, 0, 0, 0.85));
+-webkit-background-clip:
+text;
+-webkit-text-fill-color:
+transparent;
+background-clip:
+text;
+text-fill-color:
+transparent;
+font-family: Arial;
+font-size: 70px;
+font-weight: 900;
+line-height: 110%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.six-contain p{
+    margin-top: 80px;
+    color: rgb(0, 0, 0);
+font-family: Arial;
+font-size: 22px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.forma-p p{
+    margin-top: 80px;
+    color: rgb(1, 1, 1);
+font-family: Arial;
+font-size: 22px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.contact-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    
+    gap: 20px; /* Расстояние между полями */
+  }
+    
+  .contact-form input[type="text"],
+  .contact-form input[type="tel"],
+  .contact-form textarea {
+    /* Frame 27361 */
+position: relative;
+width: 700px;
+height: 68px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 19px 30px 19px 30px;
+
+border-radius: 100px;
+
+background: rgb(255, 255, 255);
+border: none;
+
+  }
+  .contact-form input[type="text"],
+.contact-form input[type="tel"],
+.contact-form textarea,
+.contact-form button {
+  font-family:  Montserrat;
+  font-size: 20px;
+  /* Остальные стили */
+}
+
+  .contact-form button {
+    /* Frame 27364 */
+position: relative;
+width: 700px;
+height: 68px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 19px 66px 19px 66px;
+
+border-radius: 100px;
+
+background: linear-gradient(180.00deg, rgb(32, 83, 76),rgb(16, 45, 41) 100%);
+color: rgb(246, 245, 246);
+font-family: Arial;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .contact-form input::placeholder, .contact-form textarea::placeholder {
+    color: rgba(16, 45, 41, 0.6);
+font-family: Arial;
+font-size: 20px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+  }
+
+  #mutkrujka{
+    position: absolute;
+    top: -450px;
+    left: -83%;
+    transform: translateX(-200%);
+    max-width: 100%; /* Установите максимальную ширину изображения */
+    width: 30vw; /* Установите ширину изображения как 50% от ширины вьюпорта */
+    height: auto; /* Сохраните пропорции изображения */
+    bottom: 0; /* Опционально, если вы хотите выровнять изображение по нижней части экрана */
+    z-index: -1; 
+  }
+
+  .contact-form textarea {
+    resize: none; /* Отключает возможность изменения размера */
+    /* Другие стили для textarea */
+  }
+  
+  @media (min-width: 769px){
+    br.desktop-hidden{
+      display: none;
+    }
+  }
+  @media (max-width: 768px){
+    .frame-six-container{
+      position: relative;
+       max-width: 768px;
+       margin-bottom: 120px
+  }
+
+  .six-contain h5{
+    background: linear-gradient(0.00deg, rgb(0, 0, 0),rgba(0, 0, 0, 0.85));
+-webkit-background-clip:
+text;
+-webkit-text-fill-color:
+transparent;
+background-clip:
+text;
+text-fill-color:
+transparent;
+font-family: Arial;
+font-size: 42px;
+font-weight: 900;
+line-height: 110%;
+letter-spacing: 0%;
+text-align: center;
+}
+.six-contain p{
+  margin-top: 30px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.69px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+br.mobile-hidden{
+  display: none;
+}
+.forma-p p{
+  margin-top: 60px;
+  color: rgb(1, 1, 1);
+font-family: Arial;
+font-size: 16px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.contact-form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  
+  gap: 15px; /* Расстояние между полями */
+}
+.contact-form input[type="text"],
+  .contact-form input[type="tel"],
+  .contact-form textarea {
+    /* Frame 27361 */
+position: relative;
+width: 320px;
+height: 50px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 19px 30px 19px 30px;
+
+border-radius: 100px;
+
+background: rgb(255, 255, 255);
+border: none;
+  }
+  .contact-form button {
+    /* Frame 27364 */
+position: relative;
+width: 320px;
+height: 50px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 19px 66px 19px 66px;
+
+border-radius: 100px;
+
+background: linear-gradient(180.00deg, rgb(32, 83, 76),rgb(16, 45, 41) 100%);
+color: rgb(246, 245, 246);
+font-family: Arial;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+  }
+  }
+  

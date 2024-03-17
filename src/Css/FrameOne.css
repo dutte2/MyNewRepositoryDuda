@@ -1,0 +1,334 @@
+.frame-one-container {
+   position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 220px;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .logo {
+    height: auto;
+  }
+  
+  .links .first-link {
+    margin-left: 318px; /* Отступ слева от логотипа до первой ссылки */
+  }
+
+  .links a:first-child{
+    margin-left: 318px;
+  }
+  
+  .links a {
+    font-size: 22px;
+    font-family: Arial;
+    margin-right: 30px; /* Отступ между ссылками */
+    color: rgb(1, 1, 1);/* Цвет текста */
+    text-decoration: none; /* Убираем подчеркивание текста */
+    transition: background-color 0.3s; /* Добавляем плавность при наведении */
+  }
+  .language-switch{
+    color: rgb(1, 1, 1);
+font-family: Arial;
+font-size: 22px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration: none;
+display: none;
+  }
+  
+  .Content-one{
+    margin-top: 256px;
+    display: flex;
+  }
+.text-one{
+    display: flex;
+    flex-direction: column;
+}
+  .text-one h1{
+    background: linear-gradient(0.00deg, rgb(0, 0, 0),rgba(0, 0, 0, 0.85));
+-webkit-background-clip:
+text;
+-webkit-text-fill-color:
+transparent;
+background-clip:
+text;
+text-fill-color:
+transparent;
+font-family: Arial;
+font-size: 70px;
+font-weight: 900;
+line-height: 110%;
+letter-spacing: 0%;
+text-align: left;
+  }
+
+  .text-one p{
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.6);
+font-family: Montserrat;
+font-size: 22px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+  }
+
+  .text-one button{
+    font-family: Arial;
+    /* Frame 27360 */
+    margin-top: 60px;
+width: 340px;
+height: 68px;
+left: 22.4%;
+right: 59.9%;
+top: 71.11%;
+bottom: 22.59%;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 19px 66px 19px 66px;
+border-radius: 100px;
+box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(32, 83, 76),rgb(16, 45, 41) 100%);
+color: rgb(246, 245, 246);
+font-size: 20px;
+  }
+
+  #vector{
+    margin-left: 20px;
+    width: 20px;
+  }
+ #coffeCup{
+    position: absolute;
+    margin-top: -250px;
+    left: 500px;
+ }
+#zernomal1{
+  position: absolute;
+  top: 150px;
+  left: 450px;
+}
+
+#zernomal2{
+  position: absolute;
+  top: 255px;
+  left: 850px;
+}
+
+#zernomal3{
+  position: absolute;
+  top: 200px;
+  left: 1100px;
+}
+
+#zernomal4{
+  position: absolute;
+  top: 750px;
+  left: 500px;
+}
+
+#zernomal5{
+  position: absolute;
+  top: 550px;
+  left: 1050px;
+}
+
+ #mutnoe1 {
+  position: absolute;
+  top: -10px; /* Прижимаем к верхней границе родителя */
+  left: -280px; /* Прижимаем к левой границе родителя */
+}
+    
+#mutnoe2 {
+  position: absolute;
+  top: 700px; /* Прижимаем к верхней границе родителя */
+  left: 1100px; /* Прижимаем к левой границе родителя */
+}
+
+/* Скрыть кнопку меню на больших экранах и показать на маленьких */
+.menu-button {
+  display: none;
+}
+
+/* Основные стили остаются без изменений */
+
+/* Медиазапрос для мобильных устройств */
+
+@media (max-width: 768px) {
+  .language-switch{
+    display: none;
+  }
+  .menu-button {
+    display: block; /* Показываем кнопку меню */
+    border: none;
+    background: none; /* Пример стилей, можно адаптировать под ваши нужды */
+  }
+
+  #linki-linki {
+    z-index: 1000;
+    visibility: hidden; /* Изначально контент невидим */
+    opacity: 0; /* Прозрачность для плавного появления */
+    position: absolute;
+    top: 7%;
+    left: -1%;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    background-color: transparent; /* исправлено с 'none' на 'transparent' */
+    overflow: hidden;
+    transition: opacity 0.5s ease-out, visibility 0s linear 0.5s, max-height 0.5s ease-out;
+    max-height: 0; /* Контент полностью скрыт */
+}
+
+#linki-linki.open {
+     
+    visibility: visible; /* Контент становится видимым */
+    opacity: 1; /* Полная видимость */
+    max-height: 500px; /* Достаточно высоты для отображения всего контента */
+    transition-delay: 0s; /* Убираем задержку для видимости */
+    max-width: 100%;
+    
+}
+
+
+  #logo-desktop{
+    width: 128px;
+    height: 28px;
+  }
+
+  .frame-one-container {
+    position: relative;
+     max-width: 768px;
+     margin: 0 auto;
+     padding: 0px;
+     margin-bottom: 250px;
+   }
+ 
+  #zernomal1{
+    position: absolute;
+    width: 27px;
+    height: 31px;
+    top: 103px;
+    left: 24px;
+  }
+  
+  #zernomal2{
+    position: absolute;
+    width: 24px;
+    height: 27px;
+    top: 150px;
+    left: 180px;
+  }
+  
+  #zernomal3{
+    position: absolute;
+    width: 45px;
+    height: 51px;
+    top: 100px;
+    left: 250px;
+  }
+  
+  #zernomal4{
+    position: absolute;
+    width: 82px;
+    height: 95px;
+    top: 380px;
+    left: 19px;
+  }
+  
+  #zernomal5{
+    position: absolute;
+    width: 40px;
+    height: 47px;
+    top: 300px;
+    left: 270px;
+  }
+  #coffeCup{
+    position: absolute;
+    width: 360px;
+    height: 497px;
+    left: 15px;
+    top: 320px;
+   
+  }
+  .navbar {
+    margin-top: 10px;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: start;
+  }
+  .links{
+    display: flex;
+    flex-direction: column;
+  }
+  .links a:first-child{
+    margin-left: 10px;
+  }
+  .links a {
+    padding: 0px 0px; /* Увеличивает область нажатия */
+    min-height: 44px;
+    font-size: 16px;
+    font-family: Arial;
+    margin-right: 20px; /* Отступ между ссылками */
+    color: rgb(1, 1, 1);/* Цвет текста */
+    text-decoration: none; /* Убираем подчеркивание текста */
+    transition: background-color 0.3s; /* Добавляем плавность при наведении */
+    text-align: center;
+  }
+  .text-one{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+}
+  .text-one h1{
+    background: linear-gradient(0.00deg, rgb(0, 0, 0),rgba(0, 0, 0, 0.85));
+    -webkit-background-clip:
+    text;
+    -webkit-text-fill-color:
+    transparent;
+    background-clip:
+    text;
+    text-fill-color:
+    transparent;
+    font-family: Arial;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 110%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .text-one p{
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.69px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .text-one button{
+    margin-bottom: -150px; /* ВОТ ТУТ ИЗМЕНЯЕМ ОТСТУП МЕЖДУ ПЕРВЫМ  ФРЕЙМОМ И ВТОРЫМ  */
+    border-radius: 61.54px;
+    box-shadow: 0px 2.46px 30.77px 0px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(32, 83, 76),rgb(16, 45, 41) 100%);
+    color: rgb(246, 245, 246);
+font-family: Arial;
+font-size: 16px;
+text-align: left;
+  }
+}
+
+
+
+
